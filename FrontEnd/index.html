@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link rel="stylesheet" href="./todo.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="container">
+      <h1 id="head"></h1>
+      <!-- <p id="demo"></p> -->
+
+      <div>
+        <input type="text" id="taskinput" placeholder="Enter your task" />
+        <button id="taskbtn">Add Task</button>
+      </div>
+
+      <!-- show the list of input/added task  -->
+      <h3>To do task</h3>
+      <p id="demo"></p>
+      <ul id="todotask"></ul>
+
+      <!-- show the list of completed task  -->
+      <h3>Completed task</h3>
+      <p id="dem"></p>
+      <ul id="completedtask"></ul>
+    </section>
+
+    <script src="./todo.js"></script>
+  </body>
+</html>
