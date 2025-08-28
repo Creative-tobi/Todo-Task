@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:3000/db";
+const API_URL = "https://todo-task-sch3.onrender.com/db";
 document.getElementById("head").innerHTML = "My To-do List"
 const now = new Date();
 // document.getElementById("demo").innerText = now.toDateString();
